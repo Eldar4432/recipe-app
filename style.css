@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,100&family=Montserrat&family=Open+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 251, 214);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 251, 214, 1) 10%,
+    rgba(241, 244, 225, 1) 89%
+  );
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mobile-container {
+  background-color: white;
+  width: 400px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+header input {
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+header button {
+  background-color: transparent;
+  color: #aaa;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.fav-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.fav-meals {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.fav-meals li {
+
+}
+
+.fav-meals img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
